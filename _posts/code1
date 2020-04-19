@@ -1,0 +1,79 @@
+计算2的n次幂代码，粘贴即可
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算2的n次幂</title>
+    <style>
+        h4 {
+           color:brown
+         }
+         
+    </style>
+      <script>
+          var n = parseInt(window.prompt('计算2的n次幂，只需输入数字即可'));
+           var qiuruikai = 1;
+           for (var i = 0;i < n;i ++){
+               qiuruikai *= 2;
+           }
+           document.write(qiuruikai)
+      </script>
+</head>
+<body>
+    <h4>注意一下：infinity算错误，因为输入的数字太大了</h4>
+    <br><br><button type="button" onclick="alert('qrk原创，禁止盗用,本人QQ：2669803073')">本站信息</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算3的n次幂</title>
+    <style>
+        h4 {
+           color:brown
+         }
+         
+    </style>
+      <script>
+          var n = parseInt(window.prompt('计算3的n次幂，只需输入数字即可'));
+           var qiuruikai = 1;
+           for (var i = 0;i < n;i ++){
+               qiuruikai *= 3;
+           }
+           document.write(qiuruikai)
+      </script>
+</head>
+<body>
+    <h4>注意一下：infinity算错误，因为输入的数字太大了</h4>
+    <br><br><button type="button" onclick="alert('qrk原创，禁止盗用,本人QQ：2669803073')">本站信息</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算4的n次幂</title>
+    <style>
+        h4 {
+           color:brown
+         }
+         
+    </style>
+      <script>
+          var n = parseInt(window.prompt('计算4的n次幂，只需输入数字即可'));
+           var qiuruikai = 1;
+           for (var i = 0;i < n;i ++){
+               qiuruikai *= 4;
+           }
+           document.write(qiuruikai)
+      </script>
+</head>
+<body>
+    <h4>注意一下：infinity算错误，因为输入的数字太大了</h4>
+    <br><br><button type="button" onclick="alert('qrk原创，禁止盗用,本人QQ：2669803073')">本站信息</button>
+</body>
+</html>
